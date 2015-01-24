@@ -21,6 +21,11 @@ This tutorial combines information from several sources in order to aid new Team
 
 To use this tutorial, click on the link to the chapter you wish to view in the Table of Contents, or click the NEXT link to view the chapters in order.
 !!Table of Contents
+|!Basics|!Intermediate|!Advanced|
+|[[1. Joining Team Twine|papa-t5Join]]|[[4. Custom Hub Link|papa-t5StartDesc]]|[[7. Custom Styles|papa-t5Style]]|
+|[[2. Outlining Your Tale|papa-t5Passages]]|[[5. Objects and Inventory|papa-t5Objects]]|[[8. Creating Macros|papa-t5Macro]]|
+|[[3. Writing Style|papa-t5WrStyle]]|[[6. Text Formatting|papa-t5Markup]]||
+
 !!!Basic Topics
 #[[Joining Team Twine|papa-t5Join]]
 #[[Outlining Your Tale|papa-t5Passages]]
