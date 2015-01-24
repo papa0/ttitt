@@ -1,0 +1,11 @@
+::papa-macros [script]
+
+macros['papa-amber-style'] = {
+    handler: function(place, macroName, params, parser) {
+        new Wikifier(place, '<html><style type="text/css"> body, #sidebar, #sidebar #title { background-color:#000;color:#fc3; } </style></html>')
+    }
+}
+
+
+
+

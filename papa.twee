@@ -1,0 +1,154 @@
+/% papa.twee - Team Twine in Tilde Town Tale source by ~papa
+ % Copyright 2015 David Meyer <papa@sdf.org>  +JMJ 
+ %/
+
+/% Link from Hub ... %/
+
+::papa-startDescription
+[[Team Twine in Tilde Town Tutorial|papa-start]]
+
+/% Story 0: TTiTT Tutorial
+ %/
+
+:: papa-start
+!Team Twine in Tilde Town Tutorial
+<<<
+//Eschewing the GUI contrivance is the first step to enlightenment, but it is only the first.//
+<<<
+Welcome! 
+
+This tutorial combines information from several sources in order to aid new Team Twine members to understand the system and start producing their own interactive fiction with minimal technical distractions.
+
+To use this tutorial, click on the link to the chapter you wish to view in the Table of Contents, or click the NEXT link to view the chapters in order.
+!!Table of Contents
+!!!Basic Topics
+#[[Joining Team Twine|papa-t5Join]]
+#[[Outlining Your Tale|papa-t5Passages]]
+#[[Writing Style|papa-t5WrStyle]]
+!!!Intermediate Topics
+#[[Custom Hub Link|papa-t5StartDesc]]
+#[[Objects and Inventory|papa-t5Objects]]
+#[[Text Formatting|papa-t5Markup]]
+!!!Advanced Topics
+#[[Custom Styles|papa-t5Style]]
+#[[Creating Macros|papa-t5Macro]]
+----
+[[NEXT: Joining Team Twine&#9654;|papa-t5Join]]
+
+
+:: papa-t5Join
+
+----
+[[NEXT: Outlining Your Tale&#9654;|papa-t5Passages]]
+
+
+:: papa-t5Passages
+
+
+:: papa-t5Markup
+
+
+:: papa-t5StartDesc
+
+
+:: papa-t5Style
+
+
+:: papa-t5Macro
+
+
+:: papa-tttttGlossary
+/% UNUSED. Is a glossary necessary? What about a discussion of the
+relationship between Twee, Twine, and TiddlyWiki. %/
+!Glossary
+
+;Interactive Fiction (IF)
+:definition
+
+;Team Twine in Tilde Town (TTiTT/TTTT/TT) 
+:is both a group of tilde.town members interested in creating, collaborating on, and sharing interactive fiction (IF) 
+
+
+:: papa-school
+/% UNUSED. Link from Hub to tutorial? %/
+You stand in front of a small red school tucked in a row of houses in Tilde Town.
+
+You can:
+
+* [[Enter the schoolhouse.|papa-ttttt]]
+
+* [[Look at other shadows.|papa-shadows]]
+
+
+/% Story X: Plato's Cave (unused)
+ %/
+
+::papa-startDescriptionX
+You open your eyes to see shadows dancing on the wall of a [[cave|papa-start]].
+
+::papa-startX [inv stats skills]
+<<papa-amber-style>>
+The Cave
+
+Behold! human beings living in a underground den; here you have been
+from your childhood, and have your legs and necks chained so that
+you cannot move, and can only see before you.
+
+Behind you a fire is blazing at a distance, and between the fire and
+you prisoners there is a low wall, men passing along the wall
+carrying all sorts of vessels, and statues and figures of animals
+made of wood and stone and various materials, which appear over the
+wall.
+
+And of the objects which are being carried above the wall you only
+see the shadows. To you, the truth is literally nothing but the
+shadows of the images.
+
+At the back of the cave, a tunnel leads up into the light.
+
+You can:
+
+* [[Look at the shadows.|papa-shadows]]
+* [[Unchain yourself and leave the cave.|papa-exit]]
+* [[View your profile.|PlayerProfile]]
+
+
+::papa-exit
+<<papa-amber-style>>
+You leave the cave of shadows and emerge blinking painfully into the
+light.
+
+Leave your computer. 
+
+Go outside. 
+
+Live your adventure.
+
+Seek the light.
+
+{{{*** CONNECTION LOST ***}}}
+
+----
+If you are still here, you can:
+
+* [[Return to the cave.|papa-start]]
+
+ 
+::papa-shadows
+You are chained immobile in the cave. Shadows move across the cave
+wall in front of you.
+
+You can look at:
+
+* [[Shadow of a schoolhouse.|papa-school]]
+
+* [[Shadow of an ASCII art cow.|papa-tildeverse]]
+
+* [[Shadow of a spindle-shaped space vessel.|papa-spaceship]]
+
+* ...
+
+Or you can:
+
+* [[Unchain yourself and leave the cave.|papa-exit]]
+
