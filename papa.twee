@@ -25,29 +25,131 @@ To use this tutorial, click on the link to the chapter you wish to view in the T
 |[[1. Joining Team Twine|papa-t5Join]]|[[4. Custom Hub Link|papa-t5StartDesc]]|[[7. Custom Styles|papa-t5Style]]|
 |[[2. Outlining Your Tale|papa-t5Passages]]|[[5. Objects and Inventory|papa-t5Objects]]|[[8. Creating Macros|papa-t5Macro]]|
 |[[3. Writing Style|papa-t5WrStyle]]|[[6. Text Formatting|papa-t5Markup]]||
-
-!!!Basic Topics
-#[[Joining Team Twine|papa-t5Join]]
-#[[Outlining Your Tale|papa-t5Passages]]
-#[[Writing Style|papa-t5WrStyle]]
-!!!Intermediate Topics
-#[[Custom Hub Link|papa-t5StartDesc]]
-#[[Objects and Inventory|papa-t5Objects]]
-#[[Text Formatting|papa-t5Markup]]
-!!!Advanced Topics
-#[[Custom Styles|papa-t5Style]]
-#[[Creating Macros|papa-t5Macro]]
+//[Does there need to be a technical explanation of Twee, Twine, and TiddlyWiki?]//
 ----
-[[NEXT: Joining Team Twine&#9654;|papa-t5Join]]
+[[NEXT: 1. Joining Team Twine&#9654;|papa-t5Join]]
 
 
 :: papa-t5Join
+!1. Joining Team Twine
+Team Twine in Tilde Town is open to all tilde.town members who are interested in contributing to the team's Twine-based [[interactive fiction collaboration|http://tilde.town/~jumblesal/twine]].
 
+All you have to do to join the team is to create in your tilde.town account a Twee file with your contribution to the team's tale and merge it into the Team Tale database:
+#If you're not already a member, [[sign-up for an account|http://goo.gl/forms/8IvQFTDjlo]] on [[tilde.town|http:://tilde.town]].
+#Log-in to your tilde.town shell account.
+#Create a subdirectory named "ttitt" for your contributions to the Team Tale:
+{{{
+$ mkdir $HOME/ttitt
+}}}
+#With your favorite editor (mine's **Emacs**), create a file in your Team subdirectory named "//member-name//.twee". (Use your own member name in place of "papa" below.)
+{{{
+$ emacs $HOME/ttitt/papa.twee
+}}}
+#Enter the following text with your editor (Use your own member name in place of "papa" below):
+{{{
+:: papa-start
+Once upon a time, they lived happily ever after.
+}}}
+#Save your Twee file and exit the editor.
+#Merge^^*^^ your Twe file into the Team Tale:
+{{{
+$ /home/jumblesale/twine/build.py
+}}}
+#Open or refresh the [[Team Tale web page|http://tilde.town/~jumblesal/twine]] in your browser. You should see a new link to your //member-name//-start passage.
+#Click the link to read your section of the Team Tale.
+Welcome to the team! You are now a member in good standing of Team Twine! 
+!!Note
+^^*^^ Since you will have to run the merge script every time you want to update your section of the Team Tale, it is recommended that you define an alias to save typing. Add the following line to your file {{{.bash_aliases}}} (create the file if it doesn't already exist; you may use any alias name you like in place of "ttbuild" below; the alias will take effect the next time you log-in to tilde.town):
+{{{
+alias ttbuild=/home/jumblesale/twine/build.py
+}}}
 ----
-[[NEXT: Outlining Your Tale&#9654;|papa-t5Passages]]
+<html>
+<h1>1. Joining Team Twine</h1>
+
+<p>Team Twine in Tilde Town is open to all tilde.town members who are
+interested in contributing to the team's Twine-based <a
+href="http://tilde.town/~jumblesal/twine">interactive fiction
+collaboration</a>.</p>
+
+<p>All you have to do to join the team is to create in your
+tilde.town account a Twee file with your contribution to the team's
+tale and merge it into the Team Tale database:</p>
+
+<ol>
+  <li>If you're not already a
+  member, <a href="http://goo.gl/forms/8IvQFTDjlo">sign-up for an
+  account</a> on <a href="http://tilde.town">tilde.town</a>.</li>
+
+  <li>Log-in to your tilde.town shell account.</li>
+
+  <li>Create a subdirectory named "ttitt" for your contributions to
+  the Team Tale:</li>
+<pre>
+$ mkdir $HOME/ttitt
+</pre>
+
+  <li>With your favorite editor (mine's <strong>Emacs</strong>),
+  create a file in your Team subdirectory named
+  "<em>member-name</em>.twee". (Use your own member name in place of
+  "papa" below.)</li>
+<pre>
+$ emacs $HOME/ttitt/papa.twee
+</pre>
+
+  <li>Enter the following text with your editor (Use your own member name in place of "papa" below):</li>
+<pre>
+:: papa-start
+Once upon a time, they lived happily ever after.
+</pre>
+
+  <li>Save your Twee file and exit the editor.</li>
+<li>Merge^^*^^ your Twe file into the Team Tale:</li>
+<pre>
+$ /home/jumblesale/twine/build.py
+</pre>
+
+  <li>Open or refresh
+  the <a href="http://tilde.town/~jumblesal/twine">Team Tale web
+  page</a> in your browser. You should see a new link to your
+  <em>member-name</em>-start passage.</li>
+
+  <li>Click the link to read your section of the Team Tale.</li>
+</ol>
+
+<p>Welcome to the team! You are now a member in good standing of Team
+Twine!</p>
+
+<h2>Note</h2>
+
+<dl>
+  <dt><sup>*</sup></dt>
+  <dd>Since you will have to run the merge script every time you want
+to update your section of the Team Tale, it is recommended that you
+define an alias to save typing. Add the following line to your file
+<pre>.bash_aliases</pre> (create the file if it doesn't already exist; you
+may use any alias name you like in place of "ttbuild" below; the
+alias will take effect the next time you log-in to tilde.town):
+<pre>
+alias ttbuild=/home/jumblesale/twine/build.py
+</pre>
+  </dd>
+</dl>
+</html>
+----
+[[&#9650;UP: Tutorial Home|papa-start]] [[NEXT: 2. Outlining Your Tale&#9654;|papa-t5Passages]]
 
 
 :: papa-t5Passages
+!2. Outlining Your Tale
+----
+[[&#9664;BACK: 1. Joining Team Twine|papa-t5Join]] [[&#9650;UP: Tutorial Home|papa-start]] [[NEXT: 3. Writing Style&#9654;|papa-t5WrStyle]]
+
+
+:: papa-t5WrStyle
+!3. Writing Style
+----
+[[&#9664;BACK: 2. Outlining Your Tale|papa-t5Passages]] [[&#9650;UP: Tutorial Home|papa-start]] [[NEXT: 4. Custom Hub Link|papa-t5StartDesc]]
 
 
 :: papa-t5Markup
