@@ -45,24 +45,20 @@ tilde.town account a Twee file with your contribution to the team's
 tale and merge it into the Team Tale database:</p>
 
 <ol>
-  <li>If you're not already a
-  member, <a href="http://goo.gl/forms/8IvQFTDjlo">sign-up for an
-  account</a> on <a href="http://tilde.town">tilde.town</a>.</li>
+  <li>In your tilde.town home directory create a subdirectory
+  named <tt>ttitt</tt>:</li>
 
-  <li>Log-in to your tilde.town shell account.</li>
-
-  <li>Create a subdirectory named "ttitt" for your contributions to
-  the Team Tale:</li>
 <pre>
-$ mkdir $HOME/ttitt
+$ mkdir ttitt
 </pre>
 
   <li>With your favorite editor (mine's <strong>Emacs</strong>),
-  create a file in your Team subdirectory named
-  "<em>member-name</em>.twee". (Use your own member name in place of
+  create a file in your <tt>ttitt</tt> subdirectory named
+  <em>member-name</em><tt>.twee</tt> . (Use your own member name in place of
   "papa" below.)</li>
+
 <pre>
-$ emacs $HOME/ttitt/papa.twee
+$ emacs ttitt/papa.twee
 </pre>
 
   <li>Enter the following text with your editor (Use your own member name in place of "papa" below):</li>
