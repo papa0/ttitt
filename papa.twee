@@ -11,23 +11,31 @@
  %/
 
 :: papa-start
-!Team Twine in Tilde Town Tutorial
-<<<
-//Eschewing the GUI contrivance is the first step to enlightenment, but it is only the first.//
-<<<
-Welcome! 
+<html>
+<h1>Team Twine in Tilde Town Tutorial</h1>
 
-This tutorial combines information from several sources in order to aid new Team Twine members to understand the system and start producing their own interactive fiction with minimal technical distractions.
+<blockquote><em>Eschewing the GUI contrivance is the first step to enlightenment, but it is only the first.</em></blockquote>
 
-To use this tutorial, click on the link to the chapter you wish to view in the Table of Contents, or click the NEXT link to view the chapters in order.
-!!Table of Contents
-|!Basics|!Intermediate|!Advanced|
+<p>Welcome!</p>
+
+<p>This tutorial combines information from several sources in order
+  to aid new Team Twine members to understand the system and start
+  producing their own interactive fiction with minimal technical
+  distractions.</p>
+
+<p>To use this tutorial, click on the link to the chapter you wish to
+  view in the Table of Contents, or click the NEXT link to view the
+  chapters in order.</p>
+
+<h2>Table of Contents</h2>
+
+</html>
+|!Basics|!Intermediate|!Advanced|h
 |[[1. Joining Team Twine|papa-t5Join]]|[[4. Custom Hub Link|papa-t5StartDesc]]|[[7. Custom Styles|papa-t5Style]]|
 |[[2. Outlining Your Tale|papa-t5Passages]]|[[5. Objects and Inventory|papa-t5Objects]]|[[8. Creating Macros|papa-t5Macro]]|
-|[[3. Writing Style|papa-t5WrStyle]]|[[6. Text Formatting|papa-t5Markup]]||
-//[Does there need to be a technical explanation of Twee, Twine, and TiddlyWiki?]//
+|[[3. Writing Style|papa-t5WrStyle]]|[[6. Text Formatting|papa-t5Markup]]|[[blah|papa-blah]]|
 ----
-[[NEXT: 1. Joining Team Twine&#9654;|papa-t5Join]]
+[[&#9654;NEXT: 1. Joining Team Twine|papa-t5Join]]
 
 
 :: papa-t5Join
@@ -105,7 +113,7 @@ alias ttbuild=/home/jumblesale/twine/build.py
 :: papa-t5Passages
 !2. Outlining Your Tale
 ----
-[[&#9664;BACK: 1. Joining Team Twine|papa-t5Join]] [[&#9650;UP: Tutorial Home|papa-start]] [[NEXT: 3. Writing Style&#9654;|papa-t5WrStyle]]
+[[&#9664;BACK: 1. Joining Team Twine|papa-t5Join]] [[&#9650;UP: Tutorial Home|papa-start]] [[&#9654;NEXT: 3. Writing Style|papa-t5WrStyle]]
 
 
 :: papa-t5WrStyle
