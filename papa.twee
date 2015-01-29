@@ -14,15 +14,14 @@ Story 0: TTiTT Tutorial
 
 
 :: papa-start
+You read the book ...
+----
 !Team Twine in Tilde Town Tutorial
-
 <<<
 //Eschewing the GUI contrivance is the first step to enlightenment, \
 but it is only the first.//
 <<<
-
 !!Welcome!
-
 This tutorial combines information from several sources in order \
 to aid new Team Twine members to understand the system and start \
 producing their own interactive fiction with minimal technical \
@@ -31,21 +30,20 @@ distractions.
 To use this tutorial, click on the link to the chapter you wish to \
 view in the Table of Contents, or click the NEXT link to view the \
 chapters in order.
-
 !!Table of Contents
-
 |!Basics|!Intermediate|!Advanced|
 |[[1. Joining Team Twine|papa-t5Join]]|[[4. Custom Hub Link|papa-t5StartDesc]]|[[7. Custom Styles|papa-t5Style]]|
 |[[2. Outlining Your Tale|papa-t5Passages]]|[[5. Objects and Inventory|papa-t5Objects]]|[[8. Creating Macros|papa-t5Macro]]|
 |[[3. Writing Style|papa-t5WrStyle]]|[[6. Text Formatting|papa-t5Markup]]||
 ----
-[[&#9654;NEXT: 1. Joining Team Twine|papa-t5Join]] [[<big><strong>~</strong></big>HUB|http://tilde.town/jumblesale/twine]]
+|You can:|[[- Turn to the next page: 1. Joining Team Twine|papa-t5Join]]|
+||[[- Stop reading the book.|Start]]|
 
 
 :: papa-t5Join
-<style>pre {border:1px solid black;}</style>
+You read the book ...
+----
 !1. Joining Team Twine
-
 Team Twine in Tilde Town is open to all tilde.town members who are \
 interested in contributing to the team's Twine-based interactive \
 fiction collaboration, the [[Team Twine Tale|http://tilde.town/~jumblesale/twine]].
@@ -54,70 +52,110 @@ All you have to do to join the team is to create a Twee file in \
 your tilde.town account with your contribution and merge it into \
 the Team Tale database, like this:
 
->1. Create your Team Twine subdirectory:
-
-@@border:1px solid black;$ mkdir $HOME/ttitt@@
-
->2. Create and edit^^1^^ your Twee file^^2^^:
-
-@@border:1px solid black;$ emacs $HOME/ttitt///user//.twee@@
-
->3. Enter the following sample text, and save your Twee file:
+1. Create your Team Twine subdirectory:
+<<<
+{{{$ mkdir $HOME/ttitt}}}
+<<<
+2. Create and edit your Twee file (substitute your tilde.town user ID in the place of //user//):
+<<<
+{{{$ ed $HOME/ttitt/}}}//user//{{{.twee}}}
+<<<
+3. Enter the following sample text, and save your Twee file:
 <<<
 &colon;&colon; //user//-start
 Once upon a time, they lived happily ever after.
 <<<
-
->4. Merge your Twee file into the Team Tale^^3^^:
-
-@@border:1px solid black;$ /home/jumblesale/twine/build.py@@
-
->5. Open the [[Team Tale web page|http://tilde.town/~jumblesale/twine]] \
+4. Merge your Twee file into the Team Tale (making an alias for \
+this will save typing):
+<<<
+{{{$ /home/jumblesale/twine/build.py}}}
+<<<
+5. Open the [[Team Tale web page|http://tilde.town/~jumblesale/twine]] \
 in your browser. You should see a new link to your //user//-start \
 passage.
 
 Welcome to the team! You are now a member in good standing of Team \
 Twine!
-
-!!Notes
-
-^^1^^ Future converts may use a text editor other than Emacs. \
-However, the author disclaims all responsibility for the errects \
-of such choice on the user's immortal soul.
-
-^^2^^ In examples on this page, substitute your own tilde.town \
-user ID in the place of //user//. 
-
-^^3^^ If you use **bash** you can make an alias for the merge command by adding the following line to your {{{$HOME/.bash_aliases}}} file:
-
-@@border:1px solid black;alias ttbuild=/home/jumblesale/twine/build.py@@
-
 ----
-[[&#9650;UP: Tutorial Home|papa-start]] [[&#9654;NEXT: 2. Outlining Your Tale|papa-t5Passages]]
+|You can:|[[- Turn to the next page: 2. Outlining Your Tale|papa-t5Passages]]|
+||[[- Turn back to the table of contents.|papa-start]]|
+||[[- Stop reading the book.|Start]]|
 
 
 :: papa-t5Passages
+You read the book ...
+----
 !2. Outlining Your Tale
 ----
-[[&#9664;BACK: 1. Joining Team Twine|papa-t5Join]] [[&#9650;UP: Tutorial Home|papa-start]] [[&#9654;NEXT: 3. Writing Style|papa-t5WrStyle]]
+|You can:|[[- Turn to the next page: 3. Writing Style|papa-t5WrStyle]]|
+||[[- Turn back to: 1. Joining Team Twine|papa-t5Join]]|
+||[[- Turn back to the table of contents.|papa-start]]|
+||[[- Stop reading the book.|Start]]|
 
 
 :: papa-t5WrStyle
+You read the book ...
+----
 !3. Writing Style
 ----
-[[&#9664;BACK: 2. Outlining Your Tale|papa-t5Passages]] [[&#9650;UP: Tutorial Home|papa-start]] [[NEXT: 4. Custom Hub Link|papa-t5StartDesc]]
-
-
-:: papa-t5Markup
+|You can:|[[- Turn to the next page: 4. Custom Hub Link|papa-t5StartDesc]]|
+||[[- Turn back to: 2. Outlining Your Tale|papa-t5Passages]]|
+||[[- Turn back to the table of contents.|papa-start]]|
+||[[- Stop reading the book.|Start]]|
 
 
 :: papa-t5StartDesc
+You read the book ...
+----
+!4. Custom Hub Link
+----
+|You can:|[[- Turn to the next page: 5. Objects and Inventory|papa-t5Objects]]|
+||[[- Turn back to: 3. Writing Style|papa-t5WrStyle]]|
+||[[- Turn back to the table of contents.|papa-start]]|
+||[[- Stop reading the book.|Start]]|
+
+
+:: papa-t5Objects
+You read the book ...
+----
+!5. Objects and Inventory
+----
+|You can:|[[- Turn to the next page: 6. Text Formatting|papa-t5Markup]]|
+||[[- Turn back to: 4. Custom Hub Link|papa-t5StartDesc]]|
+||[[- Turn back to the table of contents.|papa-start]]|
+||[[- Stop reading the book.|Start]]|
+
+
+:: papa-t5Markup
+You read the book ...
+----
+!6. Text Formatting
+----
+|You can:|[[- Turn to the next page: 7. Custom Styles|papa-t5Style]]|
+||[[- Turn back to: 5. Objects and Inventory|papa-t5Objects]]|
+||[[- Turn back to the table of contents.|papa-start]]|
+||[[- Stop reading the book.|Start]]|
 
 
 :: papa-t5Style
+You read the book ...
+----
+!7. Custom Styles
+----
+|You can:|[[- Turn to the next page: 8. Creating Macros|papa-t5Macro]]|
+||[[- Turn back to: 6. Text Formatting|papa-t5Markup]]|
+||[[- Turn back to the table of contents.|papa-start]]|
+||[[- Stop reading the book.|Start]]|
 
 
 :: papa-t5Macro
+You read the book ...
+----
+!8. Creating Macros
+----
+|You can:|[[- Turn back to: 7. Custom Styles|papa-t5Style]]|
+||[[- Turn back to the table of contents.|papa-start]]|
+||[[- Stop reading the book.|Start]]|
 
 
 :: papa-tttttGlossary
