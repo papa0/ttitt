@@ -1,113 +1,99 @@
-/% papa.twee - Team Twine in Tilde Town Tale source by ~papa
- % Copyright 2015 David Meyer <papa@sdf.org>  +JMJ 
- %/
+:: papa-papa.twee [annotation]
+papa.twee - Team Twine in Tilde Town Tale source by ~papa
+Copyright 2015 David Meyer <papa@sdf.org>  +JMJ 
 
-/% Link from Hub ... %/
 
 ::papa-startDescription
+/% Link from Hub ... %/
 [[Team Twine in Tilde Town Tutorial|papa-start]]
+/% Add links to other story entry points above this line. %/
 
-/% Story 0: TTiTT Tutorial
- %/
+
+:: papa-Story 0 [annotation]
+Story 0: TTiTT Tutorial
+
 
 :: papa-start
-<html>
-<h1>Team Twine in Tilde Town Tutorial</h1>
+!Team Twine in Tilde Town Tutorial
 
-<blockquote><em>Eschewing the GUI contrivance is the first step to enlightenment, but it is only the first.</em></blockquote>
+<<<
+//Eschewing the GUI contrivance is the first step to enlightenment, \
+but it is only the first.//
+<<<
 
-<p>Welcome!</p>
+!!Welcome!
 
-<p>This tutorial combines information from several sources in order
-  to aid new Team Twine members to understand the system and start
-  producing their own interactive fiction with minimal technical
-  distractions.</p>
+This tutorial combines information from several sources in order \
+to aid new Team Twine members to understand the system and start \
+producing their own interactive fiction with minimal technical \
+distractions.
 
-<p>To use this tutorial, click on the link to the chapter you wish to
-  view in the Table of Contents, or click the NEXT link to view the
-  chapters in order.</p>
+To use this tutorial, click on the link to the chapter you wish to \
+view in the Table of Contents, or click the NEXT link to view the \
+chapters in order.
 
-<h2>Table of Contents</h2>
+!!Table of Contents
 
-</html>
-|!Basics|!Intermediate|!Advanced|h
+|!Basics|!Intermediate|!Advanced|
 |[[1. Joining Team Twine|papa-t5Join]]|[[4. Custom Hub Link|papa-t5StartDesc]]|[[7. Custom Styles|papa-t5Style]]|
 |[[2. Outlining Your Tale|papa-t5Passages]]|[[5. Objects and Inventory|papa-t5Objects]]|[[8. Creating Macros|papa-t5Macro]]|
-|[[3. Writing Style|papa-t5WrStyle]]|[[6. Text Formatting|papa-t5Markup]]|[[blah|papa-blah]]|
+|[[3. Writing Style|papa-t5WrStyle]]|[[6. Text Formatting|papa-t5Markup]]||
 ----
 [[&#9654;NEXT: 1. Joining Team Twine|papa-t5Join]]
 
 
 :: papa-t5Join
-<html>
 <style>pre {border:1px solid black;}</style>
-<h1>1. Joining Team Twine</h1>
+!1. Joining Team Twine
 
-<p>Team Twine in Tilde Town is open to all tilde.town members who are
-interested in contributing to the team's Twine-based <a
-href="http://tilde.town/~jumblesal/twine">interactive fiction
-collaboration</a>.</p>
+Team Twine in Tilde Town is open to all tilde.town members who are \
+interested in contributing to the team's Twine-based interactive \
+fiction collaboration, the [[Team Twine Tale|http://tilde.town/~jumblesale/twine]].
 
-<p>All you have to do to join the team is to create in your
-tilde.town account a Twee file with your contribution to the team's
-tale and merge it into the Team Tale database:</p>
+All you have to do to join the team is to create a Twee file in \
+your tilde.town account with your contribution and merge it into \
+the Team Tale database, like this:
 
-<ol>
-  <li>In your tilde.town home directory create a subdirectory
-  named <tt>ttitt</tt>:</li>
+>1. Create your Team Twine subdirectory:
 
-<pre>
-$ mkdir ttitt
-</pre>
+@@border:1px solid black;$ mkdir $HOME/ttitt@@
 
-  <li>With your favorite editor (mine's <strong>Emacs</strong>),
-  create a file in your <tt>ttitt</tt> subdirectory named
-  <em>member-name</em><tt>.twee</tt> . (Use your own member name in place of
-  "papa" below.)</li>
+>2. Create and edit^^1^^ your Twee file^^2^^:
 
-<pre>
-$ emacs ttitt/papa.twee
-</pre>
+@@border:1px solid black;$ emacs $HOME/ttitt///user//.twee@@
 
-  <li>Enter the following text with your editor (Use your own member name in place of "papa" below):</li>
-<pre>
-&colon;&colon; papa-start
+>3. Enter the following sample text, and save your Twee file:
+<<<
+&colon;&colon; //user//-start
 Once upon a time, they lived happily ever after.
-</pre>
+<<<
 
-  <li>Save your Twee file and exit the editor.</li>
-<li>Merge your Twee file into the Team Tale<sup>*</sup>:</li>
-<pre>
-$ /home/jumblesale/twine/build.py
-</pre>
+>4. Merge your Twee file into the Team Tale^^3^^:
 
-  <li>Open or refresh
-  the <a href="http://tilde.town/~jumblesal/twine">Team Tale web
-  page</a> in your browser. You should see a new link to your
-  <em>member-name</em>-start passage.</li>
+@@border:1px solid black;$ /home/jumblesale/twine/build.py@@
 
-  <li>Click the link to read your section of the Team Tale.</li>
-</ol>
+>5. Open the [[Team Tale web page|http://tilde.town/~jumblesale/twine]] \
+in your browser. You should see a new link to your //user//-start \
+passage.
 
-<p>Welcome to the team! You are now a member in good standing of Team
-Twine!</p>
+Welcome to the team! You are now a member in good standing of Team \
+Twine!
 
-<h2>Note</h2>
+!!Notes
 
-<p><sup>*</sup> Since you will have to run the merge script every
-time you want to update your section of the Team Tale, it is
-recommended that you define an alias to save typing. Add the
-following line to your file <tt>.bash_aliases</tt> (create the file
-if it doesn't already exist; you may use any alias name you like in
-place of "ttbuild" below; the alias will take effect the next time
-you log-in to tilde.town):</p>
+^^1^^ Future converts may use a text editor other than Emacs. \
+However, the author disclaims all responsibility for the errects \
+of such choice on the user's immortal soul.
 
-<pre>
-alias ttbuild=/home/jumblesale/twine/build.py
-</pre>
-</html>
+^^2^^ In examples on this page, substitute your own tilde.town \
+user ID in the place of //user//. 
+
+^^3^^ If you use **bash** you can make an alias for the merge command by adding the following line to your {{{$HOME/.bash_aliases}}} file:
+
+@@border:1px solid black;alias ttbuild=/home/jumblesale/twine/build.py@@
+
 ----
-[[&#9650;UP: Tutorial Home|papa-start]] [[NEXT: 2. Outlining Your Tale&#9654;|papa-t5Passages]]
+[[&#9650;UP: Tutorial Home|papa-start]] [[&#9654;NEXT: 2. Outlining Your Tale|papa-t5Passages]]
 
 
 :: papa-t5Passages
