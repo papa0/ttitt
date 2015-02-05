@@ -5,7 +5,11 @@ Copyright 2015 David Meyer <papa@sdf.org>  +JMJ
 
 ::papa-startDescription
 /% Link from Hub ... %/
-[[Team Twine in Tilde Town Tutorial|papa-start]]
+There is a vandalized and graffitied telephone booth, the telephone \
+roughly ripped out. Inside dangling on a chain is a tattered book. \
+The scuffed title reads, "Team Twine in Tilde Town Tutorial."
+
+You can: [[Open the Tutorial and read|papa-start]].
 /% Add links to other story entry points above this line. %/
 
 
@@ -86,6 +90,17 @@ Twine!
 You read the book ...
 ----
 !2. Outlining Your Tale
+Now you can get that great story in your head written down and \
+loaded up! This lesson explains the basics of recording and \
+publishing your story as part of the Team Twine in Tilde Town Tale.
+
+Before you start typing, it may be useful to spend some time \
+thinking of your story's plot and visualizing multiple paths your \
+reader/protagonist may take. In interactive fiction, the choices \
+you give the reader should have consequences for how the \
+protagonist's story develops, so there should be several alternate \
+paths through the events of your story and several possible endings, any of which is entertaining for your reader, even if not the path or ending you conceive of as your main plot.
+  
 ----
 |You can:|[[- Turn to the next page: 3. Writing Style|papa-t5WrStyle]]|
 ||[[- Turn back to: 1. Joining Team Twine|papa-t5Join]]|
